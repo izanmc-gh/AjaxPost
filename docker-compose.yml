@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  php:
+    image: php:8-apache
+    volumes:
+      - E:\AjaxPost:/var/www/html
+    expose:
+      - 80
+    ports:
+      - 80:80
